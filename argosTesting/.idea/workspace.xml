@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45546dc0-e08d-4bc8-a298-09df4136bc15" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XD1HD7mQcN9u1lJyWxp4FwnRwm" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.SmokeTestSuite">
+    <configuration name="SmokeTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenit.argos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenit.argos" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenit.argos.SmokeTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestSuite.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenit.argos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenit.argos" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenit.argos.SmokeTestSuite" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestSuite.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rps" />
+      <option name="MAIN_CLASS_NAME" value="rps.SmokeTestSuite" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestSuite.verifyBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenit.argos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenit.argos" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenit.argos.SmokeTestSuite" />
+      <option name="METHOD_NAME" value="verifyBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestSuite.verifyBasketItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="argos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mavenit.argos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mavenit.argos" />
+      <option name="MAIN_CLASS_NAME" value="com.mavenit.argos.SmokeTestSuite" />
+      <option name="METHOD_NAME" value="verifyBasketItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmokeTestSuite" />
+        <item itemvalue="JUnit.SmokeTestSuite.searchTest" />
+        <item itemvalue="JUnit.SmokeTestSuite.verifyBasketItem" />
+        <item itemvalue="JUnit.SmokeTestSuite.verifyBasket" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45546dc0-e08d-4bc8-a298-09df4136bc15" name="Default Changelist" comment="" />
+      <created>1580565760437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580565760437</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580643386873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1580643386873" />
+    <state width="1322" height="208" key="GridCell.Tab.0.bottom" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.0.center" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.0.left" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.0.right" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.1.bottom" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.1.center" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.1.left" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state width="1322" height="208" key="GridCell.Tab.1.right" timestamp="1580941622286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580941622286" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1580939170242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580939170242" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1580569879408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1580569879408" />
+    <state x="339" y="157" key="run.anything.popup" timestamp="1580859481145">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580859481145" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580774034369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580774034369" />
+  </component>
+</project>
