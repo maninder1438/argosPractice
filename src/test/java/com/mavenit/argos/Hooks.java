@@ -1,26 +1,24 @@
 package com.mavenit.argos;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.mavenit.argos.driver.DriverFactory;
 import org.junit.After;
 import org.junit.Before;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Hooks {
-    public static WebDriver driver;
 
-    private String browser = "";
+    DriverFactory factory = new DriverFactory();
+
     @Before
     public void setUp(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        driver.get("https://www.argos.co.uk/");
-        driver.manage().window().maximize();
+        factory.openBrowser();
+        // TODO: 2020-02-08 Remove url from code
+        factory.navigateTo("https://www.argos.co.uk/");
+        factory.maxiBrowser();
     }
 
     @After
     public void  tearDown(){
-        driver.quit();
+        factory.closeBrowser();
     }
 
 
