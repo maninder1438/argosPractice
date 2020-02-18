@@ -22,11 +22,8 @@ public class TrolleyPage extends DriverFactory {
         int numberOfProductsInBasket = numberOfProducts.size();
         return numberOfProductsInBasket;
     }
-
     public String trolleyTotalProductPrice() {
         String trolleyTotal = (driver.findElement(By.cssSelector("div[data-e2e=\"basket-total-price\"]")).getText()).replace("£", "").replace(",", "");
         return trolleyTotal;
     }
-
-
 }

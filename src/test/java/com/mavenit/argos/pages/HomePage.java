@@ -3,9 +3,6 @@ package com.mavenit.argos.pages;
 import com.mavenit.argos.driver.DriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class HomePage extends DriverFactory {
     ResultsPage resultsPage = new ResultsPage();
@@ -20,6 +17,5 @@ public class HomePage extends DriverFactory {
     }
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
-
     }
 }

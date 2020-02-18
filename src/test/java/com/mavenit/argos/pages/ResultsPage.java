@@ -16,7 +16,7 @@ public class ResultsPage extends DriverFactory {
 
     public List<String> getAllProductNames() {
         List<String> productNamesList = new ArrayList<>();
-        List<WebElement> productWebElements = isProductsAvailable();
+        List<WebElement> productWebElements = productNameList();
         for (WebElement indProduct : productWebElements) {
             String actual = indProduct.getText();
             productNamesList.add(actual);
@@ -26,7 +26,7 @@ public class ResultsPage extends DriverFactory {
 
     public List<String> getAllProductRatings() {
         List<String> productRatingList = new ArrayList<>();
-        List<WebElement> productWebElements = isProductRatingAvailable();
+        List<WebElement> productWebElements = productRatingList();
         for (WebElement indProduct : productWebElements) {
             String currentRating = indProduct.getAttribute("data-star-rating");
             productRatingList.add(currentRating);
@@ -35,7 +35,7 @@ public class ResultsPage extends DriverFactory {
     }
 
     public String selectAnyProduct() {
-        List<WebElement> productWebElements = isProductsAvailable();
+        List<WebElement> productWebElements = productNameList();
         int productSize = productWebElements.size();
 
         int randomNumber = new Helpers().randomNumberGenerator(productSize);
@@ -43,26 +43,17 @@ public class ResultsPage extends DriverFactory {
         WebElement selectedElement = productWebElements.get(randomNumber);
         String selectedProductName = selectedElement.getText();
         selectedElement.click();
-
         return selectedProductName;
 
     }
 
-    private List<WebElement> isProductsAvailable() {
+    private List<WebElement> productNameList() {
         List<WebElement> productWebElements = driver.findElements(By.cssSelector("a[data-test='component-product-card-title']"));
-        if (productWebElements.size() == 0) {
-            // fail("Zero products found .....");
-            throw new RuntimeException("Zero products found .....");
-        }
         return productWebElements;
     }
 
-    private List<WebElement> isProductRatingAvailable() {
+    private List<WebElement> productRatingList() {
         List<WebElement> productWebElements = driver.findElements(By.cssSelector("div[data-test=\"component-ratings\"]"));
-        if (productWebElements.size() == 0) {
-            // fail("Zero products found .....");
-            throw new RuntimeException("Zero products found .....");
-        }
         return productWebElements;
     }
 
@@ -70,17 +61,12 @@ public class ResultsPage extends DriverFactory {
         Thread.sleep(3000);
         driver.findElement(By.cssSelector("div[data-facet=\"customer rating\"]")).click();
         Thread.sleep(4000);
-        if (selectRating == "5 or more") {
-            driver.findElement(By.cssSelector("label[data-e2e=\"5-link\"]")).click();
-        } else if (selectRating == "4 or more") {
-            driver.findElement(By.cssSelector("label[data-e2e=\"4 or more-link\"]")).click();
-        } else if (selectRating == "3 or more") {
-            driver.findElement(By.cssSelector("label[data-e2e=\"3 or more-link\"]")).click();
-        } else if (selectRating == "2 or more") {
-            driver.findElement(By.cssSelector("label[data-e2e=\"2 or more-link\"]")).click();
-        } else if (selectRating == "1 or more") {
-            driver.findElement(By.cssSelector("label[data-e2e=\"1 or more-link\"]")).click();
-        }
+       try {
+           driver.findElement(By.cssSelector("label[data-e2e^=\"" + selectRating + "\"]")).click();
+       }
+       catch(Exception ex){
+           throw new RuntimeException("No Product Found with Rating " + selectRating);
+       }
         return selectRating;
     }
 }

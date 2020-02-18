@@ -32,6 +32,4 @@ public class ProductDescriptionPage extends DriverFactory {
         String price = driver.findElement(By.cssSelector("li.price.product-price-primary h2")).getText().replace("£", "");
         return price;
     }
-
-
 }

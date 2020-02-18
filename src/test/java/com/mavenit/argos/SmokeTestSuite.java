@@ -46,10 +46,9 @@ public class SmokeTestSuite extends Hooks {
     @Test
     public void verifyProductRating() throws InterruptedException {
         String searchTerm = "laptop";
-        String selectRating = "5 or more";
+        String selectRating = "4";
         homePage.doSearch(searchTerm);
-        String rating = resultsPage.selectProductRating(selectRating);
-        String selectedRating = rating.replace(" or more", "");
+        String selectedRating = resultsPage.selectProductRating(selectRating);
         Thread.sleep(5000);
         List<String> actualRatingList = resultsPage.getAllProductRatings();
         for (String indRating : actualRatingList) {
